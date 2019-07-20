@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="header-top">传图提取图片内文字</view>
+		<view class="content">
+			<view class="content-title">正确使用姿势</view>
+			<view class="content-view"> 
+      <view class='content-text'>1.确保图片内文字清晰。</view>  
+      <view class='content-text'>2.拍照时尽量保持被拍物平整摆放、不要斜拍。</view> 
+      <view class='content-text'>3.可识别印刷体，手写体不支持识别。</view> 
+      <view class='content-text'>4.使用完全免费。</view>  
+			</view>
+		</view>
+		<view class="bottom-btn" bindtap="chooImg">拍照/相册</view>
+	</view>

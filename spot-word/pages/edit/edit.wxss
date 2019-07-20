@@ -1,0 +1,43 @@
+.container{
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background: #F3F7FA;
+  box-sizing: border-box;
+}
+.content{
+  width: 100%;
+  background:  #F3F7FA;
+  padding: 10rpx;
+}
+.bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 38rpx;
+  text-align: center;
+  color: #FFFFFF;
+  background: #007AFF;
+}
+.edit-li{
+  width: 90%;
+  margin: 0 auto;
+}
+.edit-li-des{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 20rpx;
+}
+.ipt{
+  background: #fff;
+  padding: 20rpx;
+}
+.texta{
+  background: #fff;
+  padding: 20rpx;
+  width: 92%;
+  margin: 0 auto;
+}

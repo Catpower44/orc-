@@ -1,0 +1,13 @@
+<view class="container">
+  <view class='edit-li'>
+  <view class='edit-li-des'>标题：</view>
+  <input class='ipt' type='text' value="{{title}}" bindinput="bindInputTitle"/>
+  </view>
+  <view class='edit-li'>
+  <view class='edit-li-des'>内容：</view>
+  <view class='texta'>
+    <textarea value="{{content}}" maxlength='-1' bindinput="bindInputContent"/>
+  </view>
+  </view>
+  <view class='bottom' bindtap='submit'>提交</view>
+</view>

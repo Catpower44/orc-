@@ -1,0 +1,91 @@
+/* pages/resultText/resultText.wxss */
+.container{
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background: #F3F7FA;
+  box-sizing: border-box;
+}
+.content{
+  width: 100%;
+  background:  #F3F7FA;
+  padding: 10rpx;
+}
+.bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+}
+.bottom view{
+  display: inline-block;
+  line-height: 100rpx;
+  font-size: 38rpx;
+  text-align: center;
+  width: 50%;
+}
+.back-btn{
+  color: #007AFF;
+  background: #FFFFFF;
+}
+.copy-btn{
+  color: #FFFFFF;
+  background: #007AFF;
+}
+.mask{
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.hidden{
+  display: none;
+}
+.popup{
+  position: absolute;
+  z-index: 999;
+  background-color: #ffffff;
+  width: 86%;
+  height: 300rpx;
+}
+.popup-middle{
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popup-title{
+  padding-top:20rpx;
+}
+.popup-ipt{
+  border:1px solid #ccc;
+  margin: 0 auto;
+  margin-top:30rpx;
+  padding:10rpx 20rpx;
+  width: 80%
+}
+.popup-bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.popup-bottom view{
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.close-btn{
+  color: #007AFF;
+  background: #FFFFFF;
+  height: 100%;
+}
+.save-btn{
+  color: #FFFFFF;
+  background: #007AFF;
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+<view class='container'>
+  <view class="grace-list">
+      <view class="items" wx:for="{{list}}" data-id="{{item.id}}" bindtap='toEdit'>
+          <view class="body">
+              <view class="title">{{item.title}}</view>
+              <view class="desc">{{item.create_time}}</view>
+          </view>
+      </view>
+  </view>
+</view>

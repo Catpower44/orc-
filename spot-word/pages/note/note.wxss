@@ -1,0 +1,16 @@
+.container{
+  width: 100%;
+}
+/* 列表 */
+.grace-list{width:100%; padding:5px 0;}
+.grace-list .items{width:100%; margin:5px 0; display:flex; flex-wrap:nowrap; align-items:center;}
+.grace-list .items .icons{width:88upx; height:88upx; text-align:center; flex-shrink:0; overflow:hidden; font-size:0;}
+.grace-list .grace-icons{font-size:40upx !important; width:50upx !important; line-height:88upx;}
+.grace-list .items .icons image{width:88upx; height:88upx; border-radius:88upx;}
+.grace-list .items .body{width:100%;  padding-top:12px; margin:0 18px; border-bottom:1px solid #F8F8F8; padding-bottom:12px;}
+.grace-list .items .title{font-size:30upx; width:100%; overflow:hidden; line-height:1.6em; display:flex; justify-content:space-between;word-break:break-all;}
+.grace-list .items .title text{font-size:24upx; color:#A5A7B2;}
+.grace-list .items .desc{font-size:24upx; color:#A5A7B2; line-height:1.6em;}
+.grace-list .items .arrow-right{font-family:"grace-iconfont"; font-size:36rpx; height:50upx; line-height:50upx; text-align:center; width:50upx; flex-shrink:0;}
+/* .grace-list .items .arrow-right:before{content:"\e601"; color:#B2B2B2;} */
+.grace-list .items:last-child .body{border:none;}

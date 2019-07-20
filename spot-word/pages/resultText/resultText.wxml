@@ -1,0 +1,16 @@
+<view class="container">
+  <view class='content'>{{content}}</view>
+  <view class='bottom'>
+    <view class='copy-btn' bindtap='copy'>复制</view>
+    <view class='back-btn' bindtap='openModel'>保存为笔记</view>
+  </view>
+  <view class="mask {{modelShow?'':'hidden'}}" bindtap='closeModel'></view>
+  <view class="popup popup-middle {{modelShow?'':'hidden'}}">
+    <view class='popup-title'>请输入标题</view>
+    <input class='popup-ipt' type='text' placeholder='标题' bindinput='titleInput'/>
+    <view class='popup-bottom'>
+      <view class='save-btn' bindtap='save'>确定</view>
+      <view class='close-btn' bindtap='closeModel'>取消</view>
+    </view>
+  </view>
+</view>
